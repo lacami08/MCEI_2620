@@ -1,0 +1,3 @@
+## Conclusiones
+
+Al paralelizar con OpenMP, Simpson y Trapecio terminaron bastante más rápido que en su versión secuencial, y los resultados siguieron dando 2, que es lo esperado, así que paralelizar no le quitó exactitud al cálculo. Al subir los hilos el tiempo bajó, pero el speedup no llegó al ideal (6 hilos no hacen el programa 6 veces más rápido), porque repartir el trabajo y juntar los resultados también cuesta tiempo. Además, el procesador solo tiene 6 núcleos reales, así que pasar de ahí casi no ayuda. En resumen: paralelizar vale la pena en cálculos con muchas operaciones independientes, aunque la mejora tiene un límite.
