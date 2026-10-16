@@ -1,0 +1,10 @@
+Iniciando comparacion de rendimiento para Metodo de Simpson...
+Subintervalos (n) = 10000000
+
+Resultado (secuencial): 2.0000000000
+Tiempo secuencial:      0.28730 segundos
+
+Resultado (paralelo):   2.0000000000
+Tiempo paralelo:        0.06633 segundos
+
+El paralelo es 4.33 x más rapido que el serial

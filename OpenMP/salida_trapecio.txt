@@ -1,0 +1,10 @@
+Iniciando comparacion de rendimiento para Regla del Trapecio...
+Subintervalos (n) = 10000000
+
+Resultado (secuencial): 2.0000000000
+Tiempo secuencial:      0.29973 segundos
+
+Resultado (paralelo):   2.0000000000
+Tiempo paralelo:        0.05927 segundos
+
+El paralelo es 5.06 x más rapido que el serial
